@@ -13,7 +13,7 @@
 > *(\# Equal Contribution, \* Corresponding Author)*
 
 ## 📢 News
-- **[2026-02-01]** Our paper **ADAVS** has been accepted by **IEEE Transactions on Multimedia (TMM)**! 🎉
+- **[2026-02-01]** Our paper **SDAVS** has been accepted by **IEEE Transactions on Multimedia (TMM)**! 🎉
 - **[Coming Soon]** The official code, pre-trained weights, and datasets configurations will be released here shortly. Please stay tuned!
 
 ## 📖 Abstract
@@ -23,10 +23,10 @@ In this work, we aim to answer the following questions:
 1. How can a model effectively suppress audio noise while enhancing relevant audio information? 
 2. How can we achieve discriminative interaction between the audio and visual modalities? 
 
-To this end, we propose **ADAVS**, equipped with the **Selective Noise-Resilient Processor (SNRP)** module and the **Discriminative Audio-Visual Mutual Fusion (DAMF)** strategy. The proposed SNRP mitigates audio noise interference by selectively emphasizing relevant auditory cues, while DAMF ensures more consistent audio-visual representations. Experimental results demonstrate that our proposed method achieves state-of-the-art performance on benchmark AVS datasets (S4, MS3, AVSS), especially in multi-source and complex scenes.
+To this end, we propose **SDAVS**, equipped with the **Selective Noise-Resilient Processor (SNRP)** module and the **Discriminative Audio-Visual Mutual Fusion (DAMF)** strategy. The proposed SNRP mitigates audio noise interference by selectively emphasizing relevant auditory cues, while DAMF ensures more consistent audio-visual representations. Experimental results demonstrate that our proposed method achieves state-of-the-art performance on benchmark AVS datasets (S4, MS3, AVSS), especially in multi-source and complex scenes.
 
 ## 🏗️ Framework
-*(The overall pipeline of the proposed ADAVS, which includes SNRP and DAMF modules.)*
+*(The overall pipeline of the proposed SDAVS, which includes SNRP and DAMF modules.)*
 
 ![Framework](structure.png) 
 
